@@ -1,0 +1,205 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo{
+    /* width: 23%; */
+    padding: 1%;
+    text-align: center;
+}
+
+nav{
+    width: 73%;
+    padding: 1%;
+}
+
+
+ul{
+    width: 50%;
+    margin-left: 50%;
+    margin-right: 0%;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heroImg{
+    height: 50%;
+    padding: 25px;
+}
+
+.content{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer{
+background-color: #373738;
+
+
+}
+
+footer ul {
+    background-color: aqua;
+    height: 40%;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+}
+
+/*  My UX Skills section coded using CSS flex */
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexContainer div{
+    width: 33%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color:#373738 ;
+    color: white;
+    
+}
+
+.myWorkTitle{
+    text-align: center;
+}
+
+.mySkillTitle{
+    text-align: center;
+}
+
+
+.workGrid {
+    display: grid;
+    /* min-height: 500px; */
+    
+    height: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 75%;
+    grid-template-areas: "myArea1 myArea2 " 
+    "myArea3 myArea4";
+}
+
+.item1{
+    grid-area: myArea1;
+    background-image: url("../Images/Modern\ Abstract\ Travel\ Destination\ Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:solid;
+    border-width: 1px;
+    background-size: 100%;
+}
+
+.item2{
+    grid-area: myArea2;
+    background-color: #373738;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+   
+}
+.item3{
+    grid-area: myArea3;
+    background-image: url("../Images/Screenshot_20230105_092534.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:solid;
+    border-width: 1px;
+    background-size: 100%;
+    
+
+}
+
+/* .item3 img{
+    width: 50%;
+    height: 75%;
+} */
+.item4{
+    grid-area: myArea4;
+    background-color:darkgray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-top: 40px;;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+button{
+    padding: 15px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px;
+    font-weight: 500;
+    border-radius: 5%;
+  
+}
+
+/* li{
+    padding: 10px;
+} */
+
+@media only screen and (max-width: 600px) {
+    
+
+    .flexContainer{
+        display: column;
+        width: 100%;
+        /* display: ; */
+        
+    }
+    .flexContainer div{
+        width: 100%;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        background-color:#373738 ;
+        color: white;
+        
+    }
+
+    .workGrid {
+        display: grid;
+        min-height: 1200px; 
+        
+        height: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 100%;
+        grid-template-areas: "myArea1 " "myArea2"
+        "myArea3 " "myArea4";
+    }
+
+    .item1{
+        grid-area: myArea1;
+        background-image: url("../Images/Modern\ Abstract\ Travel\ Destination\ Logo.png");
+        border:solid;
+        border-width: 1px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .item3{
+        grid-area: myArea3;
+        background-image: url("../Images/Screenshot_20230105_092534.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        border:solid;
+        border-width: 1px;
+        background-size: 100%;
+        margin-top: 50px;
+    }
+}
