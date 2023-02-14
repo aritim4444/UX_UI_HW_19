@@ -1,19 +1,6 @@
-.container{
-    display: grid;
-    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
-    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
-  
-}
-
 .inline-block{
     display: inline-block;
     vertical-align: top;
-}
-
-.inline-block-name{
-    display: inline-block;
-    vertical-align: top;
-    
 }
 
 .logo{
@@ -34,55 +21,17 @@ ul{
     margin-right: 0%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Righteous', cursive;
-}
-
-.headerName {
-    height: 8vmax;
-    padding-bottom: 5;
-    margin: 0;
-
-}
-
-.headerName img{
-    height: 100%;
-    
-}
-/* 
-.donitaName{
-    stroke: black;
-    color: white;
-    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-   
-}  */
-
 body{
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight:300;
-   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* .heroImg{
+.heroImg{
     height: 50%;
-    /* background-image: url("../Images/pexels-zaksheuskaya-1616403.jpg"); */
-/* .hero{
-    height: 100%;
-    display: inline-;
-} */
-
-.heroImg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9) 3%, rgba(0, 0, 0, 0.0)), url("../Images/pexels-zaksheuskaya-1616403.jpg");
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+    padding: 25px;
+}
 
 .content{
-    padding: 30%;
+    width: 100%;
     height: 50%;
     margin: 0 auto;
     text-align: center;
