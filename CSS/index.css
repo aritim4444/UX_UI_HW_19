@@ -1,34 +1,411 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    /* grid-template-rows: auto auto auto; */
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3vw;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3vw;
+    font-size: 30px;
+    text-align: center;
+  }
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
+    padding-right: 1vw;
 }
 
 .logo{
-    /* width: 23%; */
-    padding: 1%;
+    text-align: left;
+    font-size: 1.8vw;
+}
+
+.grid-item-navigation{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: .8vw;
+    font-weight: 300;
+    text-align: right;
+    padding: 3vw;
+    
+}
+.grid-container-largeName{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+.grid-item-largeName{
+    
+    
+    padding: 1vw;
+    font-size: 15px;
     text-align: center;
 }
 
-nav{
-    width: 73%;
-    padding: 1%;
+.largeName{
+    width: 100%;
+    height: 7vw;
+    padding-bottom: 5;
+    margin: 0;
+}
+
+.grid-container-hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 5vw;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+
+    background-image:  url("../Images/Section\ Logos\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.grid-item-hero{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 43vw;
+    padding-left: 8vw;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    padding-right: 13vw;
+    font-size: .9vw;
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    backdrop-filter: blur(4px);
+    border-bottom-right-radius: 5vw;
+}
+
+.grid-item-space{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 4vw;
+    font-size: 15px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
 }
 
 
-ul{
-    width: 50%;
-    margin-left: 50%;
-    margin-right: 0%;
+.grid-container-myWork {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 3vw;
+    row-gap: 3vw;
+    column-gap: 3vw;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .grid-container-myWork-background-large{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 10px;
+    height: 45vw;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: white;
+  }
+
+  .grid-container-myWork-background-small{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 10px;
+    height: 25vw;
+
+    text-align: center;
+    color: white;
+  }
+
+
+.grid-container-work-description{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-self: end;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
+
+.grid-item-work-title{
+    padding: 3vw;
+    font-size: 1.2vw;
+    text-align: left;
+    align-self: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.grid-item-work-title h4{
+    font-family: 'Righteous', cursive;
+    font-size: 1.6vw;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-item-work-title p{
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    font-size: .8vw;
+}
+
+.grid-item-work-button{
+    display: flex;
+    padding-right: 2vw;
+    direction: rtl;
+
+}
+
+
+.round-button {
+    width: 7vw;
+    align-self: center;
+  }
+  .round-button-circle {
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    overflow:hidden;
+          
+    background:  rgba(255, 255, 255, 0.2);
+  }
+  .round-button-circle:hover {
+    background:rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+  }
+  .round-button a {
+    display:block;
+    float:left;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+          
+    text-align:center;
+    color:#e2eaf3;
+    font-size: inherit;
+    font-size: 0.7vw;
+  }
+  
+
+ 
+
+.background-canadian-space{
+    background-image: url('../Images/Canadian-Space-Agency-astronaut-David-Saint-Jacques-in-Ottawa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.background-voyager{
+    background-image: url('../Images/pexels-anastasiya-vragova-6791741.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.background-merchant{
+    background-image: url('../Images/pexels-suzukii-xingfu-872831.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.largeNameSkills{
+    padding-left: 4vw;
+    padding-top: 8vw;
+    padding-bottom: 0vw;
+    padding-right: 2vw;
+    width: 100%;
+    height: 4vw;
+    margin: 0;
+}
+
+.grid-item-myUxSkills-title{
+    
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+
+.grid-container-mySkills {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    /* background-color: rgb(0, 19, 45); */
+    padding: 3vw;
+    row-gap: 3vw;
+    column-gap: 3vw;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    /* linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), */
+    /* background-image:  url("../Images/Section\ Logos\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+  }
+
+.grid-item-skills{
+    background-color: rgb(0, 37, 55);
+    padding: 5vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    backdrop-filter: blur(6px);
+    /* border-radius: 20%; */
+    border-bottom-right-radius: 5vw;
+    border-top-left-radius: 5vw;
+}
+
+.grid-item-skills h3{
+    font-size: 1.5vw;
+}
+
+.grid-item-skills p{
+    font-size: 1vw;
+    font-weight: 100;
+}
+.grid-item-skills-tools{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right: 1vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    backdrop-filter: blur(10px);
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.tools-image{
+    width: 80%;
+    height: 3vw;
+    padding-bottom: 5;
+    margin: 0;
+}
+
+
+
+
+
+
+
+.grid-container-contact {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 0vw;
+    row-gap: 3vw;
+    column-gap: 3vw;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    /* linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), */
+    /* background-image:  url("../Images/Canadian-Space-Agency-astronaut-David-Saint-Jacques-in-Ottawa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+  }
+
+.grid-item-contact{
+    /* background-color: rgba(0, 28, 65, 0.793); */
+    padding-left: 5vw;
+    padding-right: 8vw;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    color: black;
+    text-align: left;
+    backdrop-filter: blur(6px);
+}
+
+.grid-item-contactTitle{
+    text-align: center;
+}
+
+.contactTitle{
+    width: 100%;
+    height: 4.5vw;
+    padding-bottom: 5;
+    margin: 0;
+}
+
+
+
+
+
+
 
 body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight:100;
+    padding: 0;
+    margin: 0;
+    font-size: 1vw;
 }
 
-.heroImg{
-    height: 50%;
-    padding: 25px;
+h1 {
+    font-family: 'Righteous', cursive;
+    font-weight:400;
+    font-size: 1.8vw;
+    /* padding: 0;
+    margin: 0; */
 }
+
+ h2, h3, h4, h5, h6 {
+    font-family: 'Righteous', cursive;
+    font-weight:400;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 
 .content{
     width: 100%;
@@ -37,121 +414,48 @@ body{
     text-align: center;
 }
 
-footer{
-background-color: #373738;
 
+.grid-item-footer {
+    background-color: rgb(0, 37, 55);
+    padding: 3vw;
+    font-size: 30px;
+    text-align: center;
+  }
 
-}
 
 footer ul {
-    background-color: aqua;
+    color: white;
     height: 40%;
     display: inline-block;
     vertical-align: top;
     width: auto;
-}
-
-/*  My UX Skills section coded using CSS flex */
-.flexContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.flexContainer div{
-    width: 33%;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    background-color:#373738 ;
-    color: white;
-    
-}
-
-.myWorkTitle{
-    text-align: center;
-}
-
-.mySkillTitle{
-    text-align: center;
+    font-size: 1.2vw;
 }
 
 
-.workGrid {
-    display: grid;
-    /* min-height: 500px; */
-    
-    height: 100%;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 25% 75%;
-    grid-template-areas: "myArea1 myArea2 " 
-    "myArea3 myArea4";
-}
 
-.item1{
-    grid-area: myArea1;
-    background-image: url("../Images/Modern\ Abstract\ Travel\ Destination\ Logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    border:solid;
-    border-width: 1px;
-    background-size: 100%;
-}
-
-.item2{
-    grid-area: myArea2;
-    background-color: #373738;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    padding-top: 40px;
-    padding-left: 80px;
-    padding-right: 80px;
-   
-}
-.item3{
-    grid-area: myArea3;
-    background-image: url("../Images/Screenshot_20230105_092534.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    border:solid;
-    border-width: 1px;
-    background-size: 100%;
-    
-
-}
-
-/* .item3 img{
-    width: 50%;
-    height: 75%;
-} */
-.item4{
-    grid-area: myArea4;
-    background-color:darkgray;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    padding-top: 40px;;
-    padding-left: 80px;
-    padding-right: 80px;
-}
 
 button{
-    padding: 15px;
-    background-color: cornflowerblue;
-    color: aliceblue;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 0px;
-    font-weight: 500;
-    border-radius: 5%;
+    padding: 1.5vw;
+    background:  rgba(255, 255, 255, 0.2);
+    color: white;
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight: 300;
+    font-size: .8vw;
+    margin-top: 1vw;
+    border: 0;
   
 }
 
-/* li{
-    padding: 10px;
-} */
+button:hover{
+    background:  rgba(255, 255, 255, 0.6);
+}
 
-@media only screen and (max-width: 600px) {
+
+
+
+
+/* @media only screen and (max-width: 600px) {
     
 
     .flexContainer{
@@ -159,7 +463,7 @@ button{
         width: 100%;
         /* display: ; */
         
-    }
+    /* }
     .flexContainer div{
         width: 100%;
         margin: 10px;
@@ -202,4 +506,4 @@ button{
         background-size: 100%;
         margin-top: 50px;
     }
-}
+} */ 
