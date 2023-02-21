@@ -111,10 +111,9 @@
 
 .grid-container-myWork {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     padding: 3vw;
     row-gap: 3vw;
-    column-gap: 3vw;
     font-size: 30px;
     text-align: center;
     grid-column-start: 1;
@@ -137,6 +136,8 @@
     grid-template-columns: auto auto auto;
     font-size: 10px;
     height: 25vw;
+    
+    
 
     text-align: center;
     color: white;
@@ -233,6 +234,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-right: 2vw;
 }
 
 .background-merchant{
@@ -379,6 +381,20 @@
 
 
 
+#canadaHiddenPara{
+    display: none;
+    font-size: 1vw;
+}
+
+#voyagerHiddenPara{
+    display: none;
+    font-size: 1vw;
+}
+
+#merchantHiddenPara{
+    display: none;
+    font-size: 1vw;
+}
 
 
 body{

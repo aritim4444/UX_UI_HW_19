@@ -60,7 +60,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis massa, fringilla vitae mauris eu, blandit bibendum urna. Nullam quam lorem, pharetra eget turpis eget, blandit aliquet erat. Aenean ac sem posuere, fringilla justo eget, ultricies erat. Ut neque ante, finibus vel eleifend in, porttitor 
              fringilla vitae mauris eu, blandit bibendum urna. Nullam quam lorem, pharetra eget turpis eget
         </p>
-        <button>
+        <button id="projectbtn">
                 PROJECTS
         </button>
         <button>
@@ -72,32 +72,36 @@
 
 
  
- <div class="grid-item-space"></div>
+ <div class="grid-item-space" class="hi"></div>
     
  <div class="grid-container-myWork">
-     <div class="grid-container-myWork-background-large  background-canadian-space">
+     <div class="grid-container-myWork-background-large  background-canadian-space" >
          
-         <div class="grid-container-work-description">
+         <div class="grid-container-work-description" >
  
          <div class="grid-item-work-title">
-         <h4 >
+         <h4 id="hello">
              CANADIAN SPACE AGENCY
          </h4>
          <p>
              REDESIGN
          </p> 
+         <br>
+         <p id="canadaHiddenPara">
+            Donec vulputate semper ipsum, vel vulputate dolor vulputate et. Vivamus venenatis magna vel mollis congue. 
+         </p>
          </div>
           
  
-         <div class="grid-item-work-button">
-             <div class="round-button"><div class="round-button-circle"><a class="round-button">VIEW</a></div></div>
+         <div class="grid-item-work-button" >
+             <div class="round-button" id="canadaHover"><div class="round-button-circle"><a class="round-button">VIEW</a></div></div>
          </div>
          </div>
      </div>
      <!-- UNDER FIRST PROJECT -->
      <div class="grid-container-myWork-background-small background-voyager">
          
-         <div class="grid-container-work-description">
+         <div class="grid-container-work-description" >
  
          <div class="grid-item-work-title">
          <h4 >
@@ -106,31 +110,39 @@
          <p>
              ORIGINAL
          </p> 
+         <br>
+         <p id="voyagerHiddenPara">
+            Donec vulputate semper ipsum, vel vulputate dolor vulputate et. Vivamus venenatis magna vel mollis congue. 
+         </p>
          </div>
           
  
-         <div class="grid-item-work-button">
-             <div class="round-button"><div class="round-button-circle"><a class="round-button">VIEW</a></div></div>
+         <div class="grid-item-work-button" >
+             <div class="round-button" id="voyagerHover" ><div class="round-button-circle"><a class="round-button">VIEW</a></div></div>
          </div>
          </div>
      </div>
  
-     <div class="grid-container-myWork-background-small background-merchant">
+     <div class="grid-container-myWork-background-small background-merchant" >
          
-         <div class="grid-container-work-description">
+         <div class="grid-container-work-description" >
  
          <div class="grid-item-work-title">
          <h4 >
              MERCHANT STREET
          </h4>
-         <p>
+         <p id="merchantType">
              REDESIGN
          </p> 
+         <br>
+         <p id="merchantHiddenPara">
+            Donec vulputate semper ipsum, vel vulputate dolor vulputate et. Vivamus venenatis magna vel mollis congue. 
+         </p>
          </div>
           
  
-         <div class="grid-item-work-button">
-             <div class="round-button"><div class="round-button-circle"><a class="round-button">VIEW</a></div></div>
+         <div class="grid-item-work-button" >
+             <div class="round-button" id="merchantHover"><div class="round-button-circle"><a class="round-button">VIEW</a></div></div>
          </div>
          </div>
      </div>
@@ -269,5 +281,12 @@
 
  </footer>
 </section> 
+
+  <!-- Add the script tag to jQuery below. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
+
+ 
+
 </html>
