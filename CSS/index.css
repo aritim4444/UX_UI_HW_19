@@ -292,6 +292,10 @@
     position: relative; */
   }
 
+html{
+    overflow: scroll;
+}
+
 .grid-item-skills{
     background-color: rgb(0, 37, 55);
     padding: 5vw;
@@ -301,16 +305,36 @@
     /* border-radius: 20%; */
     border-bottom-right-radius: 5vw;
     border-top-left-radius: 5vw;
+    font-size: 1vw;
+    font-weight: 100;
 }
+
+/* .grid-item-skills-2{
+    background-color: rgb(0, 37, 55, 0.5);
+    padding: 5vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    backdrop-filter: blur(6px);
+    /* border-radius: 20%; */
+    /* border-bottom-right-radius: 5vw;
+    border-top-left-radius: 5vw;
+    font-size: 1.3vw;
+    font-weight: 100; */
+/* }  */
+
 
 .grid-item-skills h3{
     font-size: 1.5vw;
 }
+/* 
+.grid-item-skills-2 h3{
+    font-size: 1.7vw;
+} */
 
-.grid-item-skills p{
+/* .grid-item-skills p{
     font-size: 1vw;
     font-weight: 100;
-}
+} */
 .grid-item-skills-tools{
     background-color: rgba(255, 255, 255, 0.1);
     padding-left: 3vw;
