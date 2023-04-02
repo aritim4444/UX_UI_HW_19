@@ -44,6 +44,26 @@ $('#voyagerHover').on("mouseleave", function(){
          });
 
 
+$(".arrow").mouseover(function (e) {    
+      $(this).attr("src", $(this).attr("src").replace("./Images/Navigation (5).png", "./Images/Navigation (7).png"));
+      }).mouseout(function (e) {
+          $(this).attr("src", $(this).attr("src").replace("./Images/Navigation (7).png", "./Images/Navigation (5).png"));
+      });
+
+
+$('.grid-item-csa-arrow').on("click", function(){
+  $('.grid-item-csa-arrow').hide();
+      $('.grid-container-csa-display').slideDown();
+     
+        });
+
+// $(".arrow").mouseover(function () {
+//   $(this).attr('src', $(this).data("hover"));
+//         }).mouseout(function () {
+//           $(this).attr('src', $(this).data("src"));
+//         });
+
+
 // $('.grid-container-largeName').on("mouseenter", function(){
 
 //     $('.grid-item-skills').fadeIn(3000);
@@ -82,3 +102,4 @@ $("#projectbtn").click((function() {
 //       $("#theme").attr("href", "css/dark.css")
 //     }
 //   });
+

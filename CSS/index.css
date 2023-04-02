@@ -1,13 +1,16 @@
+
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
     width: 100%;
-    /* grid-template-rows: auto auto auto; */
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 3vw;
+    padding-left: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-right: 3vw;
     font-size: 30px;
     text-align: center;
   }
@@ -31,71 +34,80 @@
     text-align: left;
     font-size: 1.8vw;
 }
+a {
+    text-decoration: none !important;
+    color: white;
+  }
 
 .grid-item-navigation{
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: .8vw;
+    font-size: .7vw;
     font-weight: 300;
     text-align: right;
-    padding: 3vw;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-right: 5vw;
     
 }
-.grid-container-largeName{
+.grid-container-Header-Nav-largeName{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 30px;
+    grid-template-columns: 33% 33% 34%;
+    background-color: rgba(13, 13, 13, 0.8);
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
-    
-}
-.grid-item-largeName{
-    
-    
-    padding: 1vw;
-    font-size: 15px;
-    text-align: center;
-}
+    color: white;
 
-.largeName{
-    width: 100%;
-    height: 7vw;
-    padding-bottom: 5;
-    margin: 0;
-}
 
-.grid-container-hero {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-bottom: 5vw;
-    font-size: 30px;
-    text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    
-
-    background-image:  url("../Images/Section\ Logos\ \(1\).png");
+    background-image:  url("../Images/Untitled\ design\ \(22\).png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
+}
+.grid-item-largeName{
+    padding-left: 10vw;
+    padding-top: 6vw;
+    padding-bottom: 3vw;
+    padding-right: 5vw;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+
+.largeName{
+    width: 70%;
+    padding-bottom: 5;
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+
+.grid-container-hero {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-bottom-style: ridge;
+    
+
   }
 
 .grid-item-hero{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 43vw;
-    padding-left: 8vw;
-    padding-top: 6vw;
-    padding-bottom: 6vw;
+    color: black;
+    padding-left: 5vw;
+    padding-top: 5vw;
     padding-right: 13vw;
-    font-size: .9vw;
+    padding-bottom: 6vw;
+    font-size: .88vw;
     text-align: left;
     grid-column-start: 1;
     grid-column-end: 2;
-    backdrop-filter: blur(4px);
-    border-bottom-right-radius: 5vw;
 }
 
 .grid-item-space{
@@ -112,12 +124,13 @@
 .grid-container-myWork {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 3vw;
+    padding: 4vw;
     row-gap: 3vw;
     font-size: 30px;
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
+    border-bottom-style: ridge;
   }
 
   .grid-container-myWork-background-large{
@@ -146,16 +159,20 @@
 
 .grid-container-work-description{
     backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     display: grid;
     grid-template-columns: auto auto auto;
     align-self: end;
     grid-column-start: 1;
     grid-column-end: 4;
+
+    border-top: solid;
+    border-top-width: thin;
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .grid-item-work-title{
-    padding: 3vw;
+    padding: 4vw;
     font-size: 1.2vw;
     text-align: left;
     align-self: center;
@@ -165,9 +182,9 @@
 }
 
 .grid-item-work-title h4{
-    font-family: 'Righteous', cursive;
-    font-size: 1.6vw;
-    font-weight: 200;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -183,77 +200,40 @@
     display: flex;
     padding-right: 2vw;
     direction: rtl;
+    align-self: center;
 
 }
 
-
-.round-button {
-    width: 7vw;
-    align-self: center;
-  }
-  .round-button-circle {
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;
-    border-radius: 50%;
-    overflow:hidden;
-          
-    background:  rgba(255, 255, 255, 0.2);
-  }
-  .round-button-circle:hover {
-    background:rgba(255, 255, 255, 0.5);
-    cursor: pointer;
-  }
-  .round-button a {
-    display:block;
-    float:left;
-    width:100%;
-    padding-top:50%;
-    padding-bottom:50%;
-    line-height:1em;
-    margin-top:-0.5em;
-          
-    text-align:center;
-    color:#e2eaf3;
-    font-size: inherit;
-    font-size: 0.7vw;
-  }
-  
 
  
 
-.background-canadian-space{
-    background-image: url('../Images/Canadian-Space-Agency-astronaut-David-Saint-Jacques-in-Ottawa.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+
+
+
+
+
+
+
+.grid-container-largeNamesd{
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
-.background-voyager{
-    background-image: url('../Images/pexels-anastasiya-vragova-6791741.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-right: 2vw;
+.grid-item-largeNamesd{
+
+    padding-top: 7vw;
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-left: 5vw;
+    border-bottom: inset;
+    
 }
 
-.background-merchant{
-    background-image: url('../Images/pexels-suzukii-xingfu-872831.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.grid-item-largeNamesd h1{
+    font-size: 2vw;
+    font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .largeNameSkills{
     padding-left: 4vw;
@@ -277,19 +257,13 @@
 .grid-container-mySkills {
     display: grid;
     grid-template-columns: auto auto auto ;
-    /* background-color: rgb(0, 19, 45); */
-    padding: 3vw;
+    padding: 5vw;
     row-gap: 3vw;
     column-gap: 3vw;
-    text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
+    border-bottom-style: ridge;
 
-    /* linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), */
-    /* background-image:  url("../Images/Section\ Logos\ \(1\).png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; */
   }
 
 html{
@@ -297,44 +271,18 @@ html{
 }
 
 .grid-item-skills{
-    background-color: rgb(0, 37, 55);
+    background-color: rgb(0, 0, 0);
     padding: 5vw;
     color: rgb(255, 255, 255);
-    text-align: center;
-    backdrop-filter: blur(6px);
-    /* border-radius: 20%; */
-    border-bottom-right-radius: 5vw;
-    border-top-left-radius: 5vw;
-    font-size: 1vw;
-    font-weight: 100;
+    font-weight: 200;
 }
 
-/* .grid-item-skills-2{
-    background-color: rgb(0, 37, 55, 0.5);
-    padding: 5vw;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    backdrop-filter: blur(6px);
-    /* border-radius: 20%; */
-    /* border-bottom-right-radius: 5vw;
-    border-top-left-radius: 5vw;
-    font-size: 1.3vw;
-    font-weight: 100; */
-/* }  */
 
 
 .grid-item-skills h3{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
-/* 
-.grid-item-skills-2 h3{
-    font-size: 1.7vw;
-} */
 
-/* .grid-item-skills p{
-    font-size: 1vw;
-    font-weight: 100;
-} */
 .grid-item-skills-tools{
     background-color: rgba(255, 255, 255, 0.1);
     padding-left: 3vw;
@@ -359,30 +307,24 @@ html{
 
 
 
-
+.me-Img{
+    width: 30vw;
+}
 
 
 .grid-container-contact {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     padding-top: 0vw;
-    row-gap: 3vw;
-    column-gap: 3vw;
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
 
-    /* linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), */
-    /* background-image:  url("../Images/Canadian-Space-Agency-astronaut-David-Saint-Jacques-in-Ottawa.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; */
   }
 
 .grid-item-contact{
-    /* background-color: rgba(0, 28, 65, 0.793); */
     padding-left: 5vw;
-    padding-right: 8vw;
+    padding-right: 3vw;
     padding-top: 8vw;
     padding-bottom: 8vw;
     color: black;
@@ -422,28 +364,47 @@ html{
 
 
 body{
-    font-family: 'Lexend Exa', sans-serif;
-    font-weight:100;
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight:200;
     padding: 0;
     margin: 0;
-    font-size: 1vw;
+    font-size: .9vw;
+}
+
+
+.bold{
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight:400;
+    padding: 0;
+    margin: 0;
+    font-size: .9vw;
 }
 
 h1 {
-    font-family: 'Righteous', cursive;
-    font-weight:400;
-    font-size: 1.8vw;
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight: 800;
+    font-size: 1.5vw;
     /* padding: 0;
     margin: 0; */
 }
 
- h2, h3, h4, h5, h6 {
+  h4, h5, h6 {
     font-family: 'Righteous', cursive;
     font-weight:400;
     padding: 0;
     margin: 0;
 }
 
+h2, h3{
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight:600;
+}
+
+p{
+    font-size: 0.7vw;
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight:200;
+}
 
 
 
@@ -456,10 +417,10 @@ h1 {
 
 
 .grid-item-footer {
-    background-color: rgb(0, 37, 55);
+    background-color: rgb(0, 0, 0);
     padding: 3vw;
-    font-size: 30px;
-    text-align: center;
+    text-align: left;
+    font-size: .7vw;
   }
 
 
@@ -469,26 +430,28 @@ footer ul {
     display: inline-block;
     vertical-align: top;
     width: auto;
-    font-size: 1.2vw;
 }
 
 
 
-
 button{
-    padding: 1.5vw;
+    padding-top: 1.4vw ;
+    padding-left: 3vw ;
+    padding-bottom: 1.4vw;
+    padding-right: 3vw;
     background:  rgba(255, 255, 255, 0.2);
     color: white;
-    font-family: 'Lexend Exa', sans-serif;
-    font-weight: 300;
-    font-size: .8vw;
-    margin-top: 1vw;
-    border: 0;
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight: 100;
+    font-size: .6vw;
+    border: 0.5vw;
+    border-color: rgba(255, 255, 255, 0.4) ;
   
 }
 
 button:hover{
     background:  rgba(255, 255, 255, 0.6);
+    font-weight: 400;
 }
 
 
@@ -547,3 +510,212 @@ button:hover{
         margin-top: 50px;
     }
 } */ 
+
+
+:root {
+    --card-height: 30vw;
+    --card-width: calc(var(--card-height) / 1.5);
+  }
+  * {
+    box-sizing: border-box;
+  }
+ .heha {
+    height: 60vh;
+    padding-top: 22vw;
+    padding-bottom: 22vw;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+  }
+  .haha {
+    height: 60vh;
+    padding-top: 22vw;
+    padding-bottom: 22vw;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+  }
+  .card {
+    width: var(--card-width);
+    height: var(--card-height);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 36px;
+    perspective: 2500px;
+    margin: 0 50px;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+  }
+  
+  .wrapper {
+    transition: all 0.5s;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .card:hover .wrapper {
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  }
+  
+  .wrapper::before,
+  .wrapper::after {
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+  }
+  .wrapper::before {
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(
+      to top,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      rgba(12, 13, 19) 97%
+    );
+  }
+  .wrapper::after {
+    bottom: 0;
+    opacity: 1;
+    background-image: linear-gradient(
+      to bottom,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      rgba(12, 13, 19) 97%
+    );
+  }
+  
+  .card:hover .wrapper::before,
+  .wrapper::after {
+    opacity: 1;
+  }
+  
+  .card:hover .wrapper::after {
+    height: 120px;
+  }
+  .title {
+    width: 100%;
+    transition: transform 0.5s;
+  }
+  .card:hover .title {
+    transform: translate3d(0%, -50px, 100px);
+  }
+  
+  .character {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .card:hover .character {
+    opacity: 1;
+    transform: translate3d(0%, -30%, 100px);
+  }
+  
+
+
+  /* CSA - PAGE 1 */
+  /* CSA - PAGE 1 */
+  /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  /* .grid-container-Header-Nav-largeName-csa{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    background-color: rgba(13, 13, 13, 0.8);
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: white;
+
+
+    background-image:  url("../Images/Newfoundland-and-Greenland--–-Earth-as-seen-by-David-Saint-Jacques.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+} */
+  .grid-item-largeName-CSA{
+    padding-left: 10vw;
+    padding-top: 12vw;
+    padding-bottom: 3vw;
+    padding-right: 5vw;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+
+.largeName-CSA{
+    width: 90%;
+    padding-bottom: 5;
+    margin: 0;
+    text-align: right;
+    
+}
+
+
+.grid-container-csa-openArea{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-top: 5vw;
+    padding-bottom: 20vw;
+}
+
+.grid-item-csa-arrow{
+
+   
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.arrow{
+    width: 3%;
+    margin: 0;
+    text-align: right;
+}
+
+.arrow:hover{
+    cursor: grab;
+}
+
+
+.grid-container-csa-display{
+    display: none;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.grid-container-csa-unit-1{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 5vw;
+    row-gap: 3vw;
+    column-gap: 3vw;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-bottom-style: ridge;
+}
+
+.csa-display{
+    display: none;
+}
