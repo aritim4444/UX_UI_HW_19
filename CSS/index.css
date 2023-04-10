@@ -802,6 +802,10 @@ button:hover{
   text-decoration: overline;
 }
 
+.nav-icon{
+  display: none;
+}
+
 
 
 
@@ -829,6 +833,7 @@ button:hover{
 
 .nav-icon{
   width: 25%;
+  display:inline;
 }
 
 .grid-item-navigation {
@@ -881,7 +886,7 @@ button:hover{
 p{
   font-size: 3vw;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 h1{
@@ -923,8 +928,8 @@ h1{
 
 .grid-item-hero {
  
-  padding-left: 7vw;
-  padding-right: 7vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
   text-align: center;
 }
 
