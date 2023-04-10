@@ -421,6 +421,8 @@ p{
     padding: 3vw;
     text-align: left;
     font-size: .7vw;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
 
 
@@ -819,7 +821,7 @@ button:hover{
     
 .grid-container-Header-Nav-largeName {
     padding-top: 5vw;
-    padding-bottom: 12vw;
+    padding-bottom: 15vw;
 }
   
 .logo{
@@ -832,7 +834,7 @@ button:hover{
 }
 
 .nav-icon{
-  width: 25%;
+  width: 30%;
   display:inline;
 }
 
@@ -890,7 +892,14 @@ p{
 }
 
 h1{
-  font-size: 5.5vw;
+  font-size: 5vw;
+  line-height: 1.7;
+  font-weight: 700;
+  text-align: center;
+}
+
+h4{
+  font-size: 7vw;
 }
 
 .bold{
@@ -928,9 +937,9 @@ h1{
 
 .grid-item-hero {
  
-  padding-left: 4vw;
-  padding-right: 4vw;
-  text-align: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 20vw;
 }
 
 .grid-item-skills h3 {
@@ -946,6 +955,14 @@ h3{
 .grid-item-contact {
   padding-left: 9vw;
   padding-right: 9vw;
+}
+
+
+/* CSA/////////////////////////////////////////////// */
+
+.grid-container-csa-openArea {
+  padding-top: 5vw;
+  padding-bottom: 20vw;
 }
   
 }  
