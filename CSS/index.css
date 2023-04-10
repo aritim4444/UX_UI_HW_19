@@ -815,7 +815,7 @@ button:hover{
     
 .grid-container-Header-Nav-largeName {
     padding-top: 5vw;
-    padding-bottom: 9vw;
+    padding-bottom: 12vw;
 }
   
 .logo{
@@ -879,16 +879,17 @@ button:hover{
 }
 
 p{
-  font-size: 2.5vw;
+  font-size: 3vw;
   text-align: center;
+  line-height: 1.5;
 }
 
 h1{
-  font-size: 4vw;
+  font-size: 5.5vw;
 }
 
 .bold{
-  font-size: 2.6vw;
+  font-size: 3.2vw;
 }
 
 .grid-container-mySkills {
@@ -900,7 +901,7 @@ h1{
 }
 
 .grid-item-largeNamesd h1 {
-  font-size: 6vw;
+  font-size: 8vw;
   text-align: center;
 }
 
@@ -914,6 +915,7 @@ h1{
 
 .grid-item-largeNamesd {
   padding-left: 0vw;
+  padding: 5vw;
 }
 .grid-container-hero {
   grid-template-columns: auto;
@@ -921,24 +923,24 @@ h1{
 
 .grid-item-hero {
  
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
   text-align: center;
 }
 
 .grid-item-skills h3 {
-  font-size: 2.5vw;
+  font-size: 3.2vw;
   text-align: center;
 }
 
 h3{
-  font-size: 2.5vw;
+  font-size: 3.2vw;
   text-align: center;
 }
 
 .grid-item-contact {
-  padding-left: 5vw; 
-  padding-right: 5vw;
+  padding-left: 9vw;
+  padding-right: 9vw;
 }
   
 }  
