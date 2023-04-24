@@ -233,6 +233,7 @@ a {
 .grid-item-largeNamesd h1{
     font-size: 2vw;
     font-weight: 800;
+    text-decoration: overline;
 }
 
 .largeNameSkills{
@@ -268,6 +269,7 @@ a {
 
 html{
     overflow: scroll;
+    min-height: 100%;
 }
 
 .grid-item-skills{
@@ -383,7 +385,7 @@ body{
 h1 {
     font-family: 'Lexend Tera', sans-serif;
     font-weight: 800;
-    font-size: 1.5vw;
+    font-size: 2vw;
     /* padding: 0;
     margin: 0; */
 }
@@ -418,11 +420,17 @@ p{
 
 .grid-item-footer {
     background-color: rgb(0, 0, 0);
-    padding: 3vw;
+    padding: 5vw;
     text-align: left;
     font-size: .7vw;
-    grid-column-start: 1;
-    grid-column-end: 4;
+    font-weight: 400;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: left;
+    position: fixed;
+
   }
 
 
@@ -431,6 +439,8 @@ footer ul {
     height: 40%;
     display: inline-block;
     vertical-align: top;
+    padding: 0;
+    
 }
 
 
@@ -820,8 +830,10 @@ button:hover{
 @media only screen and (max-width: 600px) {
     
 .grid-container-Header-Nav-largeName {
-    padding-top: 5vw;
-    padding-bottom: 15vw;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    background-image: none;
+    background-color: black;
 }
   
 .logo{
@@ -840,6 +852,7 @@ button:hover{
 
 .grid-item-navigation {
   align-self: center;
+  padding-right: 7vw;
 }
 
 .grid-item-largeName{
@@ -884,6 +897,18 @@ button:hover{
 .heha {
   padding-top: 55%;
 }
+.grid-item {
+  padding-left: 7vw;
+}
+
+
+.grid-item-hero p{
+  color: white;
+}
+
+.grid-item-hero h1{
+  color: white;
+}
 
 p{
   font-size: 3vw;
@@ -899,7 +924,7 @@ h1{
 }
 
 h4{
-  font-size: 7vw;
+  font-size: 6.5vw;
 }
 
 .bold{
@@ -915,8 +940,9 @@ h4{
 }
 
 .grid-item-largeNamesd h1 {
-  font-size: 8vw;
+  font-size: 5.5vw;
   text-align: center;
+  text-decoration: overline;
 }
 
 .grid-container-contact {
@@ -933,12 +959,17 @@ h4{
 }
 .grid-container-hero {
   grid-template-columns: auto;
+  background-image: url(../Images/Untitled\ design\ \(22\).png);
+  background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
  }
 
 .grid-item-hero {
  
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 15vw;
 }
 
 .grid-item-skills h3 {
@@ -957,11 +988,31 @@ h3{
 }
 
 
-/* CSA/////////////////////////////////////////////// */
+/* CSA MOBILE/////////////////////////////////////////////// */
 
 .grid-container-csa-openArea {
   padding-top: 5vw;
   padding-bottom: 20vw;
+}
+
+
+.grid-item-footer {
+  padding: 8vw;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+/* 
+footer ul {
+  color: white;
+  height: 40%;
+  display: inline-block;
+  vertical-align: top;
+  
+} */
+
+.inline-block {
+  padding-right: 5vw;
 }
   
 }  
