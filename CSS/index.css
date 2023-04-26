@@ -101,8 +101,8 @@ a {
 .grid-item-hero{
     color: black;
     padding-left: 5vw;
-    padding-top: 5vw;
-    padding-right: 13vw;
+    padding-top: 3vw;
+    padding-right: 0;
     padding-bottom: 6vw;
     font-size: .88vw;
     text-align: left;
@@ -379,7 +379,7 @@ body{
     font-weight:400;
     padding: 0;
     margin: 0;
-    font-size: .9vw;
+    font-size: 1vw;
 }
 
 h1 {
@@ -429,10 +429,21 @@ p{
     bottom: 0;
     display: flex;
     justify-content: left;
-    position: fixed;
+    /* position: fixed; */
 
   }
 
+  .bum{
+    width: 8vw;
+  }
+
+  
+.grid-item-hero p{
+  font-size: 1vw;
+  font-family: 'Lexend Tera', sans-serif;
+  font-weight: 200;
+  line-height: 2vw;
+}
 
 footer ul {
     color: white;
@@ -827,13 +838,21 @@ button:hover{
 /* MOBILE //////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     
+
+  .bum{
+    width: 20vw;
+  }
+
 .grid-container-Header-Nav-largeName {
     padding-top: 8vw;
     padding-bottom: 8vw;
     background-image: none;
     background-color: black;
+    /* border-bottom: thin;
+    border-bottom-style: outset;
+    border-bottom-color: cadetblue; */
 }
   
 .logo{
@@ -904,6 +923,10 @@ button:hover{
 
 .grid-item-hero p{
   color: white;
+  font-size: 3vw;
+  text-align: center;
+  line-height: 1.7;
+
 }
 
 .grid-item-hero h1{
