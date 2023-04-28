@@ -14,7 +14,7 @@ console.log(helloWorld);
 
 
 
-$('.nav-icon').on("mouseenter", function(){
+$('.nav-icon').on("click", function(){
   $('.grid-container-mob-nav').slideDown();
     });
 

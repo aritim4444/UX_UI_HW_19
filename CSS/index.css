@@ -30,6 +30,13 @@
     padding-right: 1vw;
 }
 
+.inline-block:hover{
+  color: blueviolet;
+  cursor: grab;
+  font-weight: 700;
+}
+
+
 .logo{
     text-align: left;
     font-size: 1.8vw;
@@ -59,11 +66,28 @@ a {
     color: white;
 
 
-    background-image:  url("../Images/Untitled\ design\ \(22\).png");
+    background-image:  url("../Images/Untitled\ design\ \(44\).png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     
+}
+
+.grid-container-Header-Nav-largeName-csa{
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  background-color: rgba(13, 13, 13, 0.8);
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  color: white;
+
+
+  background-image:  url("../Images/Untitled\ design\ \(45\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
 }
 .grid-item-largeName{
     padding-left: 10vw;
@@ -397,6 +421,10 @@ h1 {
     margin: 0;
 }
 
+h4:hover{
+  color: blueviolet;
+}
+
 h2, h3{
     font-family: 'Lexend Tera', sans-serif;
     font-weight:600;
@@ -461,6 +489,7 @@ p{
   .mob-nav-item:hover{
     background-color: blueviolet;
     color: white;
+    cursor: grab;
   }
 
 
@@ -1011,7 +1040,7 @@ h4{
 }
 .grid-container-hero {
   grid-template-columns: auto;
-  background-image: url(../Images/Untitled\ design\ \(22\).png);
+  background-image: url(../Images/Black\ &\ White\ Minimalist\ Business\ Logo\ \(2\).png);
   background-repeat: no-repeat;
     background-size: cover;
     position: relative;
