@@ -434,10 +434,36 @@ p{
   }
 
   .bum{
-    width: 8vw;
+    width: 5vw;
   }
 
+  .grid-container-mob-nav{
+    display: none;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .mob-nav{
+    display: grid;
+    font-size: 3.2vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mob-nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 7vw;
+  }
   
+  .mob-nav-item:hover{
+    background-color: blueviolet;
+    color: white;
+  }
+
+
 .grid-item-hero p{
   font-size: 1vw;
   font-family: 'Lexend Tera', sans-serif;
@@ -840,9 +866,12 @@ button:hover{
 
 @media only screen and (max-width: 500px) {
     
+  /* .pee{
+    display: none;
+  } */
 
   .bum{
-    width: 20vw;
+    width: 10vw;
   }
 
 .grid-container-Header-Nav-largeName {

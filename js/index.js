@@ -14,34 +14,46 @@ console.log(helloWorld);
 
 
 
+$('.nav-icon').on("mouseenter", function(){
+  $('.grid-container-mob-nav').slideDown();
+    });
+
+$('.grid-container-mob-nav').on("mouseleave", function () {
+  $('.grid-container-mob-nav').hide();
+});
 
 
+$(".nav-icon").mouseover(function (e) {    
+  $(this).attr("src", $(this).attr("src").replace("./Images/Icon (1).png", "./Images/Icon (2).png"));
+  }).mouseout(function (e) {
+      $(this).attr("src", $(this).attr("src").replace("./Images/Icon (2).png", "./Images/Icon (1).png"));
+  });
 
- $('#canadaHover').on("mouseenter", function(){
-    $('#canadaHiddenPara').slideDown();
-      });
+//  $('#canadaHover').on("mouseenter", function(){
+//     $('#canadaHiddenPara').slideDown();
+//       });
 
- $('#canadaHover').on("mouseleave", function(){
-     $('#canadaHiddenPara').slideUp();
-          });
+//  $('#canadaHover').on("mouseleave", function(){
+//      $('#canadaHiddenPara').slideUp();
+//           });
 
 
-$('#voyagerHover').on("mouseenter", function(){
-     $('#voyagerHiddenPara').slideDown();
-         });
+// $('#voyagerHover').on("mouseenter", function(){
+//      $('#voyagerHiddenPara').slideDown();
+//          });
         
-$('#voyagerHover').on("mouseleave", function(){
-    $('#voyagerHiddenPara').slideUp();
-        });
+// $('#voyagerHover').on("mouseleave", function(){
+//     $('#voyagerHiddenPara').slideUp();
+//         });
 
 
- $('#merchantHover').on("mouseenter", function(){
-    $('#merchantHiddenPara').slideDown("slow");
-         });
+//  $('#merchantHover').on("mouseenter", function(){
+//     $('#merchantHiddenPara').slideDown("slow");
+//          });
                
- $('#merchantHover').on("mouseleave", function(){
-    $('#merchantHiddenPara').slideUp();
-         });
+//  $('#merchantHover').on("mouseleave", function(){
+//     $('#merchantHiddenPara').slideUp();
+//          });
 
 
 $(".arrow").mouseover(function (e) {    
